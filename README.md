@@ -1,6 +1,7 @@
-# Twitter Following Tab Switcher Extension
+# Twitter Tab Switcher Extension
 
-Installation Instructions
+## Installation Instructions
+
 - Clone this repo
 - Open Chrome/Edge
 - Enable Developer Mode
