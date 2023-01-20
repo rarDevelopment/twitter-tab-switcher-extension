@@ -1,0 +1,24 @@
+{
+  "name": "Twitter Following Tab Switcher",
+  "description": "Algorithmic Timelines Bad",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts":[
+    {
+      "matches": ["https://twitter.com/*"],
+      
+      "js": ["twit.js"]
+    }
+  ],
+  "permissions": ["tabs", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/twit.png",
+      "32": "/images/twit.png"
+    }
+  }
+}
