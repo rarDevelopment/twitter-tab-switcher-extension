@@ -13,7 +13,7 @@
       "js": ["twit.js"]
     }
   ],
-  "permissions": ["tabs", "scripting"],
+  "permissions": [],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
