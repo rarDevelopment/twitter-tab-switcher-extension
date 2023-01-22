@@ -1,11 +1,5 @@
 const timeToWait = 2000;
 
-// window.addEventListener('focus', function (event) {
-//     setTimeout(() => {
-//         clickFollowingTab();
-//     }, timeToWait);
-// });
-
 window.addEventListener('load', function (event) {
     setTimeout(() => {
         clickFollowingTab();
