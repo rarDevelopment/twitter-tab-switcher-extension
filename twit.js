@@ -8,7 +8,7 @@ window.addEventListener('load', function (event) {
 
 
 function clickFollowingTab() {
-    if (window.location.href.endsWith('/home')) {
+    //if (window.location.href.endsWith('/home')) {
         Array.prototype.slice.call(document.getElementsByTagName('span')).filter(s => s.innerHTML === 'Following')[0].click();
-    }
+    //}
 }
